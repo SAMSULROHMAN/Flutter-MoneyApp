@@ -9,6 +9,7 @@ import 'package:intl/date_symbol_data_local.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+
   initializeDateFormatting().then((value) => runApp(const MyApp()));
 }
 
